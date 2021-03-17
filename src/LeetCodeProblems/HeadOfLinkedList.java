@@ -4,6 +4,8 @@ public class HeadOfLinkedList {
 
     public ListNode sortList(ListNode head) {
 
+        System.out.println("done!");
+
         if(head==null||head.next==null)
             return head;
 
@@ -40,6 +42,7 @@ public class HeadOfLinkedList {
         ListNode mid = midPrev.next;
         midPrev.next = null;
         return mid;
+
     }
 
 
